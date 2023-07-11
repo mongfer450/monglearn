@@ -31,6 +31,7 @@ body, h1, h2, p, ul, li {
   
   main {
     padding: 20px;
+    background-image: url(bg.png);
   }
   
   article {
