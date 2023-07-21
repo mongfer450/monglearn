@@ -58,16 +58,40 @@
     color: #fff;
     text-decoration: none;
   }
-  
+
+  /* Main Section */
   main {
     padding: 20px;
     background-image: url(bg.png);
   }
   
-  article {
-    border: 2px;
+  .div_ar{
+    border: 1px solid;
     border-color: black;
+    padding: 10px;
+    margin: 10px ;
+    width: 100%;
+    line-height: 25px;
   }
+
+  #css{
+    width: 40%;
+    float: right;
+
+  }
+
+  #js{
+    width: 40%;
+  }
+
+  #framework{
+    width: 40%;
+  
+  }
+
+ 
+
+
   .fwsection{
     line-height: 30px;
     margin-top: 30px;
@@ -90,3 +114,25 @@
     text-align: center;
   }
   
+  @media only screen and (max-width:500px){
+    #logo{
+      font-size: 30px;
+      margin-right: 10px;
+    }
+
+    .navbar{
+      width: 10%;
+      padding: 5px 0px 5px 15px;
+    }
+  
+    .nav-menu{
+      padding: 0px;
+      margin: 0px;
+      font-size: 15px;
+      gap: 0px;
+    }
+
+    a{
+      gap: 1px;
+    }
+}
