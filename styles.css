@@ -28,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 20px 10px 20px 5%;
   }
 
   .nav-menu{
@@ -100,7 +100,7 @@
   iframe{
     margin:40px 0px 40px;
     height: 600px;
-    width: 1000px;
+    width: 90%;
   }
   
   h2 {
@@ -115,19 +115,18 @@
   }
   
   @media only screen and (max-width:500px){
+    
     #logo{
-      font-size: 30px;
+      font-size: 40px;
       margin-right: 10px;
     }
 
     .navbar{
       width: 10%;
-      padding: 5px 0px 5px 15px;
+      padding: 20px 0px 20px 15px;
     }
   
     .nav-menu{
-      padding: 0px;
-      margin: 0px;
       font-size: 15px;
       gap: 0px;
     }
@@ -135,4 +134,5 @@
     a{
       gap: 1px;
     }
+    
 }
